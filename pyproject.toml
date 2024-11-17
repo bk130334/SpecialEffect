@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "specialeffect"
+version = "0.1.0"
+description = "이미지 파일에 특수 효과 추가"
+authors = ["Park Hyeon Ho <bk130334@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+opencv-python = "4.10.0.84"
+numpy = "2.0.2"
+PyQt5 = "5.15.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
